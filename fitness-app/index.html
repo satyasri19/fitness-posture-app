@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@latest"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/three@0.150.1/build/three.module.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Real-Time Fitness App</h1>
+    <div class="buttons">
+      <button id="start-squats">Start Squats</button>
+      <button id="start-pushups">Start Push-Ups</button>
+    </div>
+    <div class="video-container">
+      <video id="webcam" autoplay playsinline muted></video>
+      <canvas id="overlay"></canvas>
+      <div id="threejs-container"></div>
+    </div>
+    <div id="feedback"></div>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
