@@ -35,7 +35,3 @@ This is a real-time, browser-based fitness application that uses MediaPipe Pose 
 ## Optional
 
 - This project can be extended to a React Native or WebView-based mobile app for APK delivery.
-
-## License
-
-This project is open source and free to use.
